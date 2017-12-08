@@ -1,0 +1,45 @@
+{
+  "name": "code3-react-skeleton",
+  "version": "1.0.0",
+  "description": "Fai Invoice client",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "lint": "standard",
+    "flow": "flow",
+    "test:all": "run-s lint flow",
+    "build": "webpack --progress --colors -p"
+  },
+  "author": "Faizal Zakaria (fai@code3.io)",
+  "license": "MIT",
+  "standard": {
+    "ignore": [
+      "dist"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "babel-core": "6.23.1",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.1.10",
+    "babel-preset-react": "6.24.1",
+    "html-webpack-plugin": "2.29.0",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "webpack": "3.4.1",
+    "webpack-dev-server": "2.9.7"
+  },
+  "devDependencies": {
+    "flow-bin": "0.49.1",
+    "standard": "10.0.2"
+  },
+  "engines": {
+    "node": ">= 6.3.1",
+    "npm": ">= 3.10.3"
+  }
+}
