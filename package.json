@@ -1,7 +1,7 @@
 {
   "name": "code3-react-skeleton",
   "version": "1.0.0",
-  "description": "Fai Invoice client",
+  "description": "Code3|CodeGarage React skeleton",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
