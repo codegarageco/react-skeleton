@@ -5,4 +5,5 @@ Starting point for CodeGarage to build a React App
 
 - It uses `env` & `react` presets for `babel`.
 - It uses `standard` for js lint.
-- It build the app to `dist` folder.
+- It builds the app to `dist` folder.
+- It use webpack-dev-server to run locally.
